@@ -1,0 +1,19 @@
+README make-corona-icons
+
+Author: Greg McDonald
+Date: 11 January 2017
+
+This is a GIMP script that generates all the icon PNG files needed for iOS and Android build
+in Corona SDK.  On my installation, I drop it in:
+
+		~/Library/Application Support/GIMP/2.8/scripts	
+
+The script-fu-menu-register command at the end adds it to the ScriptFu menu in the menu bar.
+
+
+This script is provided as is without warranty.  It works on my OSX installation, but I'm sure 
+any number of things can break it.
+
+Assert:
+	~/Desktop/CoronaIcons exists and is writable
+	- active image is 180 x 180  
