@@ -15,5 +15,5 @@ This script is provided as is without warranty.  It works on my OSX installation
 any number of things can break it.
 
 Assert:
-	~/Desktop/CoronaIcons exists and is writable
+	/Users/greg/Desktop/CoronaIcons exists and is writable (you can change this in the script!)
 	- active image is 180 x 180  
