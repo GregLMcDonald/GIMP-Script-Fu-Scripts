@@ -39,7 +39,29 @@
 							9
 							1
 							0
+							0	
 							0
+							0
+		)
+
+
+		(set! filename "Icon-xxxhdpi.png")
+		(set! targetW 192)
+		(set! targetH 192)
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+		(set! filename fullFilename)
+		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0	
 							0
 							0
 		)
@@ -98,6 +120,23 @@
 		(set! fullFilename (string-append fullFilename filename))
 		(set! filename fullFilename)
 		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0
+							0
+							0
+		)
+		(set! filename "Icon-xxhdpi.png")
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+		(set! filename fullFilename)
 		(file-png-save 	RUN-NONINTERACTIVE
 							img
 							drawable
@@ -216,6 +255,52 @@
 							0
 							0
 		)
+
+		
+
+			(set! filename "Icon-xhdpi.png")
+		(set! targetW 96)
+		(set! targetH 96)
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+				(set! filename fullFilename)
+		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0
+							0
+							0
+		)
+
+			(set! filename "Icon-hdpi.png")
+		(set! targetW 72)
+		(set! targetH 72)
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+				(set! filename fullFilename)
+		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0
+							0
+							0
+		)
+
+
 
 		(set! filename "Icon-Small@3x.png")
 		(set! targetW 87)
@@ -386,10 +471,51 @@
 							0
 		)
 
+			(set! filename "Icon-mdpi.png")
+		(set! targetW 48)
+		(set! targetH 48)
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+				(set! filename fullFilename)
+		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0
+							0
+							0
+		)
 		
 		(set! filename "Icon-Small-40.png")
 		(set! targetW 40)
 		(set! targetH 40)
+		(set! fullFilename folder-path)
+		(set! fullFilename (string-append fullFilename filename))
+				(set! filename fullFilename)
+		(gimp-image-scale img targetW targetH)
+		(file-png-save 	RUN-NONINTERACTIVE
+							img
+							drawable
+							filename
+							filename
+							0
+							9
+							1
+							0
+							0
+							0
+							0
+		)
+
+			(set! filename "Icon-ldpi.png")
+		(set! targetW 36)
+		(set! targetH 36)
 		(set! fullFilename folder-path)
 		(set! fullFilename (string-append fullFilename filename))
 				(set! filename fullFilename)
@@ -451,6 +577,10 @@
 (script-fu-menu-register "make-corona-icons"
 			"<Image>/Script-Fu")
 	  
+
+
+
+
 
 
 
