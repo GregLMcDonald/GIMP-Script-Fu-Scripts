@@ -16,4 +16,4 @@ any number of things can break it.
 
 Assert:
 	/Users/greg/Desktop/CoronaIcons exists and is writable (you can change this in the script!)
-	- active image is 180 x 180  
+	- active image in Gimp (which is the starting point) is 180 x 180  
